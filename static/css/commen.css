@@ -1,0 +1,91 @@
+/*base setting*/
+*{ margin:0; padding:0; font-family:'맑은 고딕'; }
+img{ border:none; }
+a{ color:#222; text-decoration:none; }
+ul li{ list-style:none; }
+table{ border-spacing:0; border-collapse:collapse; width:100%; }
+[type=button],[type=submit],[type=reset]{ cursor:pointer; }
+[type=text],[type=password]{ border:1px solid #ccc; }
+[role=tooltip] > div{ font-size:0.75em; }
+h1{ padding-top:10px; clear:both; }
+
+#header{
+	min-width:1000px;
+	height:80px;
+	background:url('/static/img/header_back.png'); }
+
+#header .header{
+	width:1000px;
+	margin:0 auto; }
+
+#header .header .header-top ul li a{
+	color:#fff; }
+
+#header .header .header-top ul li{
+	padding:0 10px;
+	display:inline-block;
+	font-size:0.7em;
+	color:#fff; }
+
+#header .header .header-top ul li:before{
+	content:url('/static/img/header_top.png');
+	padding:0 5px; }
+	
+#header .header .header-top ul{
+	text-align:right; }
+
+#header .header .header-bottom > ul{
+	vertical-align:top;
+	line-height:400%;
+	width:80%;
+	text-align:right; }
+
+#header .header .header-bottom > *,
+#header .header .header-bottom > ul > li{
+	display:inline-block; }
+	
+#header .header .header-bottom > ul > li{
+	padding-left:50px; }
+
+#header .header .header-bottom > ul > li ul{
+	opacity:0.8;
+	z-index:100;
+	line-height:100%;
+	text-align:left;
+	position:absolute;
+	top:80px;
+	font-size:0.7em;
+	display:none; }
+
+#header .header .header-bottom > ul > li > ul > li a{
+	width:100px;
+	background:#222;
+	padding:15px 10px;
+	display:inline-block; }
+	
+#header .header .header-bottom > ul > li > ul > li a:hover{
+	background:#444;
+}
+#header .header .header-bottom > ul > li > ul > li a{
+	color:#fff; }
+
+#header .header .header-bottom > ul > li > a{
+	font-size:0.9em;
+	font-weight:bold;
+	color:#666; }
+	
+#header .header .header-bottom > ul > li.active > a{
+	color:#b04035; }
+
+#footer{
+	min-width:1000px;
+	background:#7d7d7d; }
+
+#footer .footer{
+	text-align:right;
+	width:1000px;
+	margin:0 auto;
+	padding:30px 0;
+	font-size:12px;
+	color:#fff;
+	font-family:'돋움'; }
